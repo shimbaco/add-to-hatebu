@@ -1,0 +1,21 @@
+{
+  "name": "Add to Hatebu",
+  "description" : "Add to Hatebu",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "icons": {
+    "128": "img/icon-128.png"
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "browser_action": {
+    "default_icon": {
+      "32": "img/icon-32.png"
+    }
+  },
+  "background": {
+    "scripts": ["js/app.js"],
+    "persistent": false
+  }
+}
